@@ -1,0 +1,118 @@
+{
+  "parameters": {
+    "mode": "static",
+    "n": 4,
+    "max_edge_size": 3,
+    "max_edges": 3,
+    "max_degree": 4,
+    "connected": false,
+    "forbid_pair_triangles": false,
+    "sample_limit": 200,
+    "signature": "weak",
+    "delta": 0,
+    "runs": 50,
+    "steps": 30,
+    "seed": 7
+  },
+  "num_candidates": 176,
+  "num_admissible_configs": 176,
+  "sample_configs": [
+    {
+      "vertices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "hyperedges": [
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "vertices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "hyperedges": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "vertices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "hyperedges": [
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          2,
+          4
+        ]
+      ]
+    }
+  ],
+  "analysis": {
+    "num_configs": 176,
+    "signature": "weak",
+    "delta": 0,
+    "avg_neighborhood_size": 35.23863636363637,
+    "overlap_rate": 0.19564935064935066,
+    "transitivity_violation_rate": 0.0,
+    "num_equivalence_classes": 10,
+    "avg_class_size": 17.6,
+    "compression_ratio_U": 17.6,
+    "entropy_bits": 2.671753739965303,
+    "largest_classes": [
+      60,
+      36,
+      24,
+      20,
+      15,
+      6,
+      6,
+      4,
+      4,
+      1
+    ],
+    "sample_neighborhood_sizes": [
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60,
+      60
+    ]
+  }
+}

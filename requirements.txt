@@ -1,0 +1,6 @@
+# 第十章超圖實驗：Streamlit GUI 與視覺化
+streamlit>=1.33.0
+matplotlib>=3.7.0
+networkx>=3.1
+pandas>=2.0.0
+pytest>=7.4.0
